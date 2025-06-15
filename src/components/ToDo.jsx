@@ -67,7 +67,7 @@ function ToDo() {
                 </div>
 
                 {/* tasks list */}
-                <div>
+                <div className="todolist">
                     {toDoList.map((item, index) => {
                         return <ToDoItems key={index} text={item.text} id={item.id} isComplete={item.isComplete} deleteToDo={deleteToDo} toggle={toggle} />;
                     })}

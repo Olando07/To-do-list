@@ -16,15 +16,15 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
-    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* start of ToDo logo and input box */
 .container {
-	width: 30%;
+	width: 40%;
     max-width: var(--container-md);
-	height: 520px;
-	margin-top: 120px;
+	min-height: 570px;
+	margin: 90px 0 50px 0;
 	border-radius: 0.75rem;
 	place-self: center;
 	background-color: var(--white);
@@ -50,7 +50,7 @@
     display: flex;
     align-items: center;
     border-radius: 9999px;
-    margin: 0 40px 20px;
+    margin: 0 40px 40px;
 }
 
 .input-box .task {
@@ -58,7 +58,7 @@
     font-size: 16px;
     border-width: 0;
     flex: 1 1 0%;
-    height: 40px;
+    min-height: 40px;
     outline: none;
     color: var(--black);
     background: transparent;
@@ -71,8 +71,8 @@
     font-weight: 600;
     line-height: 28px;
     background-color: rgba(255,124,148,255);
-    width: 45px;
-    height: 100%;
+    width: 12%;
+    height: 40px;
     color: #fff;
     cursor: pointer;
 }
@@ -81,20 +81,25 @@
 /* Start of ToDo list */
 .todo-list {
     display: flex;
-    align-items: center;
-    margin: 10px 34px 10px;
+    align-items: flex-start;
+    margin: 15px 34px;
     gap: 8px;
 }
 
 .todo-list div {
     display: flex;
     flex: 1 1 0%;
-    align-items: center;
+    align-items: flex-start;
     cursor: pointer;
 }
 
 .todo-list div p {
     margin: 0 0 0 8px;
     font-size: 17px;
+    line-break: normal;
+    max-height: 1500px;
+    max-width: 92%;
+    overflow: hidden;
 }
+
 /* End of ToDo list */

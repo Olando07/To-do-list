@@ -17,6 +17,7 @@ function ToDoItems({ text, id, isComplete, deleteToDo, toggle }) {
             </div>
 
             <img
+                id="deleteToDo"
                 onClick={() => {
                     return deleteToDo(id);
                 }}
