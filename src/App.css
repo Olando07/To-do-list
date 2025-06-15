@@ -1,0 +1,34 @@
+:root {
+    --grey-1: hsl(212, 33%, 89%);
+    --grey-2: hsl(210, 31%, 80%);
+    --grey-3: hsl(211, 27%, 70%);
+    --grey-4: hsl(209, 23%, 60%);
+    --grey-5: hsl(210, 22%, 49%);
+    --grey-6: hsl(209, 28%, 39%);
+    --grey-7: hsl(209, 34%, 30%);
+    --grey-8: hsl(211, 39%, 23%);
+    --grey-9: hsl(209, 61%, 16%);
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+body {
+	background: var(--grey-9);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.overlay {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
