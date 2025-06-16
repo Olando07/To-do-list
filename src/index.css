@@ -101,6 +101,10 @@
     overflow: hidden;
     align-self: center;
 }
+
+.todo-list img {
+    cursor: pointer;
+}
 /* End of ToDo list */
 
 /* mobile view */
