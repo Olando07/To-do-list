@@ -108,6 +108,30 @@
 /* End of ToDo list */
 
 /* mobile view */
+@media(max-width: 767px){
+    .container {
+        width: 94%;
+        margin: 90px 0 70px;
+    }
+
+    .input-box{
+        margin: 0 14px 35px;
+    }
+
+    .input-box button{
+        width: 20%;
+    }
+
+    .todo-list {
+        margin: 15px 20px;
+    }
+
+    .todo-list img {
+        min-height: 32px;
+        min-width: 30px;
+    }
+}
+
 @media(max-width: 1024px){
     .container{
         width: 80%;
@@ -148,30 +172,6 @@
     .todo-list img {
         min-height: 52px;
         min-width: 50px;
-    }
-}
-
-@media(max-width: 767px){
-    .container {
-        width: 94%;
-        margin: 90px 0 70px;
-    }
-
-    .input-box{
-        margin: 0 14px 35px;
-    }
-
-    .input-box button{
-        width: 20%;
-    }
-
-    .todo-list {
-        margin: 15px 20px;
-    }
-
-    .todo-list img {
-        min-height: 32px;
-        min-width: 30px;
     }
 }
 
