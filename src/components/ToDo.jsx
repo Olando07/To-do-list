@@ -62,7 +62,7 @@ function ToDo() {
 
                 {/* task input box */}
                 <div className="input-box">
-                    <input ref={inputRef} className="task" type="text" name="task" placeholder="Enter your task here" />
+                    <input ref={inputRef} className="task" type="text" name="task" placeholder="Enter your task here" onKeyUp={(e) => e.key === "Enter" && add()} />
                     <button onClick={add}>+</button>
                 </div>
 
